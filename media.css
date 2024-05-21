@@ -1,0 +1,202 @@
+/* Media Query for iPhone 14 Pro Max (430px width) in portrait mode */
+@media only screen and (max-width: 430px) {
+    .container {
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .nav-name, .nav-items {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 2rem;
+        padding-bottom: 4rem;
+    }
+
+    .hero-section-descrption {
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .hero-section-main-heading {
+        font-size: 28px;
+    }
+    button{
+        font-size:.5rem;
+    }
+    .fade-text{
+        user-select: none;
+        font-size:2.9em;
+        color: rgb(184, 179, 179);
+        position: absolute;
+        bottom: -7.3%;
+        left:5%;
+        font-weight: bold;
+        transition:all 3s;
+    } 
+
+    .hero-image img {
+        width: 100%;
+        max-width: 350px; /* Adjust based on design */
+        padding:1em;
+    }
+
+    .project-container {
+        width: 100%;
+        margin:0;
+        gap:40px;
+
+    }
+    .project-section{
+        background-color: rgb(215, 211, 211);
+    
+    }
+    .project-header{
+        padding-top:0;
+        margin-bottom:6%;
+    }
+
+    .project-card {
+        width: 100%;
+        height:250px;
+        margin: 0;
+
+        
+    }
+
+    #project1 {
+        background-image: url('./Asserts/project1.png');
+    }
+    #project2 {
+        margin: 0;
+        background-image: url('./Asserts/project1.png');
+    }
+    #project3 {
+        background-image: url('./Asserts/project1.png');
+    }
+    #project4 {
+        margin: 0;
+        background-image: url('./Asserts/project1.png');
+    }
+
+    .project-heading{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .project-description {
+        width: 100%;
+        font-size: 0.8em;
+    }
+   
+    .project-skils-list {
+        width:100%;
+    
+    }
+    .project-number{
+        
+        font-size:90px;
+       
+    }
+
+    .project-content{
+        bottom:-6%;
+
+    }
+
+    .project-content-left {
+        left:3%;
+    }
+    .project-content-right{
+        left:3%;
+    }
+    .project-card:hover .project-content{
+        transform: scale(1.04);
+    }
+    .project-number-left{
+        right:40px;
+        top:-15%;
+    }
+    .project-number-right{
+        left:40px;
+        top:-15%;
+    }
+
+    .project-skils-list img{
+        width:25px;
+        border-radius: 50%;
+    }
+
+    /* End of Project section-----> */
+
+    .skill-container {
+        flex-direction: column;
+        gap: 2rem;
+        margin-top:6rem;
+        width:100%;
+
+    }
+
+    .skill-container-left, .skill-container-right {
+        width: 100%;
+    }
+
+    .skill-decription {
+        width: 100%;
+        font-size: 1em;
+    }
+    .skill-fade-text{
+        font-size:5em;
+        color: rgb(198, 195, 195);
+        bottom:-2%;
+        right:2%;
+    
+    }
+
+    .skill-logo {
+        width:70px; /* Adjust based on design */
+    }
+    .skill-container-right{
+        gap:2rem;
+    }
+    .contact-section{
+        margin-top:30%;
+    }
+    .contact-heading h1
+    {
+        font-size: 40px;
+    }
+
+    .contact-heading h2 {
+        font-size: 28px;
+    }
+
+    .input input, .message textarea {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+
+    .social-links a {
+        margin: 0 10px;
+    }
+    .footer-fade-text{
+        font-size:1em;
+        top:50%;
+        
+    }
+
+}
