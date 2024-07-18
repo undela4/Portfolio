@@ -192,7 +192,6 @@ button {
 
 }
 .project-card::after{
-    
     content: '';
     position: absolute;
     top: 0;
@@ -246,12 +245,12 @@ button {
 }
 
 #project1{
-    background-image: url('./Asserts/project1.png');
+    background-image: url('./Asserts/project2.png');
 
 }
 #project2{
     margin-left: 120px;
-    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTe3tUpIjNFm4hG4RippwYeA-S8_oOSPp8xsw&usqp=CAU');
+    background-image: url('./Asserts/project1.png');
 
 }
 #project3{
@@ -307,7 +306,7 @@ button {
 }
 .project-description{
     width: 430px;
-    font-style: italic;
+    line-height: 20px;
 
 }
 .project-btn{
@@ -373,8 +372,9 @@ button {
 .skill-decription{
     width: 600px;
     font-size: 20px;
-    letter-spacing: 1px;
-    word-spacing: 1.5px;
+    letter-spacing:0.5px;
+    word-spacing:2px;
+    line-height:25px;
     text-align: justify;
     text-justify: inter-word;
 }
