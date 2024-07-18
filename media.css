@@ -77,13 +77,13 @@
         margin: 0;
         background-image: url('./Asserts/project1.png');
     }
-    #project3 {
+    /* #project3 {
         background-image: url('./Asserts/project1.png');
     }
     #project4 {
         margin: 0;
         background-image: url('./Asserts/project1.png');
-    }
+    } */
 
     .project-heading{
         font-size: 20px;
